@@ -19,29 +19,29 @@ a {
 div {
   -webkit-text-size-adjust: none;
 }
-.anima-full-width-a {
+.full-width-a {
   width               : 100%;
 }
-.anima-full-height-a {
+.full-height-a {
   height              : 100%;
 }
 div {
   -webkit-text-size-adjust: none;
 }
-.anima-animate-enter {
+.animate-enter {
   opacity             : 0;
   transform           : translate(-25px, 0);
   display             : block;
-  -webkit-animation   : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation   : animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : animate-enter-frames 0.20000000298s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes anima-animate-enter-frames {
+@-webkit-keyframes animate-enter-frames {
   0%
    
   {
@@ -57,7 +57,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-moz-keyframes anima-animate-enter-frames {
+@-moz-keyframes animate-enter-frames {
   0%
    
   {
@@ -73,7 +73,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-o-keyframes anima-animate-enter-frames {
+@-o-keyframes animate-enter-frames {
   0%
    
   {
@@ -89,7 +89,7 @@ div {
   transform: translate(0,0);
     }
 }
-@keyframes anima-animate-enter-frames {
+@keyframes animate-enter-frames {
   0%
    
   {
@@ -105,20 +105,20 @@ div {
   transform: translate(0,0);
     }
 }
-.anima-animate-enter1 {
+.animate-enter1 {
   opacity             : 0;
   transform           : translate(0, 25px);
   display             : block;
-  -webkit-animation   : anima-animate-enter1-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-animate-enter1-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : anima-animate-enter1-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : anima-animate-enter1-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation   : animate-enter1-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : animate-enter1-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : animate-enter1-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : animate-enter1-frames 0.20000000298s ease-in-out 1 normal forwards;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   -o-animation-delay  : 0s;
   animation-delay     : 0s;
 }
-@-webkit-keyframes anima-animate-enter1-frames {
+@-webkit-keyframes animate-enter1-frames {
   0%
    
   {
@@ -134,7 +134,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-moz-keyframes anima-animate-enter1-frames {
+@-moz-keyframes animate-enter1-frames {
   0%
    
   {
@@ -150,7 +150,7 @@ div {
   transform: translate(0,0);
     }
 }
-@-o-keyframes anima-animate-enter1-frames {
+@-o-keyframes animate-enter1-frames {
   0%
    
   {
@@ -166,7 +166,7 @@ div {
   transform: translate(0,0);
     }
 }
-@keyframes anima-animate-enter1-frames {
+@keyframes animate-enter1-frames {
   0%
    
   {
@@ -2814,30 +2814,30 @@ div {
   text-align          : center;
   line-height         : 67.0px;
 }
-/* .anima-animate-appear prefix for appear animations */
-.anima-animate-appear {
+/* .animate-appear prefix for appear animations */
+.animate-appear {
   opacity             : 0;
   display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -webkit-animation   : reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : reveal 0.3s ease-in-out 1 normal forwards;
 }
-.anima-animate-disappear {
+.animate-disappear {
   opacity             : 1;
   display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -webkit-animation   : reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : reveal 0.3s ease-in-out 1 reverse forwards;
 }
-.anima-animate-nodelay {
+.animate-nodelay {
   -webkit-animation-delay: 0;
   -moz-animation-delay: 0;
   -o-animation-delay  : 0;
   animation-delay     : 0;
 }
-@-webkit-keyframes anima-reveal {
+@-webkit-keyframes reveal {
   0%
    
   {
@@ -2851,7 +2851,7 @@ div {
       opacity: 1;
     }
 }
-@-moz-keyframes anima-reveal {
+@-moz-keyframes reveal {
   0%
    
   {
@@ -2865,7 +2865,7 @@ div {
       opacity: 1;
     }
 }
-@-o-keyframes anima-reveal {
+@-o-keyframes reveal {
   0%
    
   {
@@ -2879,7 +2879,7 @@ div {
       opacity: 1;
     }
 }
-@keyframes anima-reveal {
+@keyframes reveal {
   0%
    
   {
@@ -2893,38 +2893,38 @@ div {
       opacity: 1;
     }
 }
-.anima-component-wrapper,
-.anima-component-wrapper * {
+.component-wrapper,
+.component-wrapper * {
   pointer-events      : none;
 }
-.anima-component-wrapper a *,
-.anima-component-wrapper a,
-.anima-component-wrapper input,
-.anima-component-wrapper video,
-.anima-component-wrapper iframe,
-.anima-listeners-active,
-.anima-listeners-active * {
+.component-wrapper a *,
+.component-wrapper a,
+.component-wrapper input,
+.component-wrapper video,
+.component-wrapper iframe,
+.listeners-active,
+.listeners-active * {
   pointer-events      : auto;
 }
-.anima-hidden,
-.anima-hidden * {
+.hidden,
+.hidden * {
   visibility          : hidden;
   pointer-events      : none;
 }
-.anima-smart-layers-pointers,
-.anima-smart-layers-pointers * {
+.smart-layers-pointers,
+.smart-layers-pointers * {
   pointer-events      : auto;
   visibility          : visible;
 }
-.anima-component-wrapper.anima-not-ready,
-.anima-component-wrapper.anima-not-ready * {
+.component-wrapper.not-ready,
+.component-wrapper.not-ready * {
   visibility          : hidden !important;
 }
-.anima-listeners-active-click,
-.anima-listeners-active-click * {
+.listeners-active-click,
+.listeners-active-click * {
   cursor              : pointer;
 }
-.anima-word-break {
+.word-break {
   overflow-wrap       : break-word;
   word-wrap           : break-word;
   word-break          : break-all;
