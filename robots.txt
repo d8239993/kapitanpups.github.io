@@ -1,1 +1,4 @@
-
+User-agent: Yandex 
+Allow: /
+Disallow: /
+# все разрешается
