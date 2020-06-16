@@ -3,8 +3,82 @@
      xmlns:turbo="http://turbo.yandex.ru"
      version="2.0">
     <channel>
-        <item turbo="false">
-            <link>https://капитанпупс.рф/</link>
-        </item>
+<item turbo="true">
+  <title>Заголовок страницы</title>
+  <link>https://капитанпупс.рф</link>
+  <turbo:content>
+    <![CDATA[
+      <header>
+        <h1>Центр грудничкового плавания Капитан Пупс</h1>
+        <h2>От 3 недель до 1.5 лет, Индивидуальные ванночки, Все требования СЭС, занятия с детьми
+</h2>
+        <figure>
+          <img src="https://xn--80aaxgsjdasfo.xn--p1ai/img/--u043bu043eu0433u043eu0442u0438u043f-u041au0430u043fu0438u0442u0430u043d-u041fu0443u043fu0441.png">
+        </figure>
+
+        <menu>
+          <a href="http://example.com/page1.html">Пункт меню 1</a>
+          <a href="http://example.com/page2.html">Пункт меню 2</a>
+        </menu>
+      </header>
+ <button formaction="https://xn--80aaxgsjdasfo.xn--p1ai/"
+              data-background-color="#5B97B0"
+              data-color="white"
+              data-primary="true">Перейти на сайт</button>
+    <button formaction="tel:+79951281082"
+              data-background-color="#5B97B0"
+              data-color="white"
+              data-primary="true">Позвонить</button>
+ <button formaction="https://yandex.ru/profile/50994970880"
+              data-background-color="#5B97B0"
+              data-color="white"
+              data-primary="true">Схема проезда</button>
+<button
+    formaction="mailto:mail@example.com"
+    data-background-color="#5B97B0"
+    data-color="white"
+    data-primary="true"
+    data-send-to="kapitanpups@капитанпупс.рф"
+    data-agreement-company="Центр грудничкового 
+плавания
+Капитан Пупс"
+    data-agreement-link="http://example.com"
+>
+    Записаться на занятие
+</button>
+
+      <p></p>
+      <p></a></p>
+      <figure>
+        <img src="https://xn--80aaxgsjdasfo.xn--p1ai/img/--1-u0437u0430u043du044fu0442u0438u0435-1@2x.png">
+      </figure>
+<button formaction="https://widget.bookform.ru/24092"
+              data-background-color="#5B97B0"
+              data-color="white"
+              data-primary="true">От 600р</button>
+      <figure>
+        <img src="https://xn--80aaxgsjdasfo.xn--p1ai/img/--8-u0437u0430u043du044fu0442u0438u0439-1@2x.png">
+      </figure>
+<button formaction="https://widget.bookform.ru/24094"
+              data-background-color="#5B97B0"
+              data-color="white"
+              data-primary="true">От 4400р</button>
+      <figure>
+        <img src="https://xn--80aaxgsjdasfo.xn--p1ai/img/--12-u0437u0430u043du044fu0442u0438u0439-1@2x.png">
+      </figure>
+<button formaction="https://widget.bookform.ru/24095"
+              data-background-color="#5B97B0"
+              data-color="white"
+              data-primary="true">От 6400р</button>
+        <img src="https://xn--80aaxgsjdasfo.xn--p1ai/img/star.png">
+        <img src="https://xn--80aaxgsjdasfo.xn--p1ai/img/water.png">
+         <img src="https://xn--80aaxgsjdasfo.xn--p1ai/img/win.png">
+        <h1>Контакты</h1>
+      <p> <a href="https://yandex.ru/maps/org/kapitan_pups/50994970880/?ll=39.854562%2C57.630419&source=wizbiz_new_text_single&z=17">Наш адрес: ул. Богдановича 20а</a></p>
+      <p> <a href="tel:+79951281082">Телефон: +79951281082</a></p>
+      <p> <a href="https://yandex.ru/maps/org/kapitan_pups/50994970880/?ll=39.854562%2C57.630419&source=wizbiz_new_text_single&z=17">Часы работы - 9:00-20:00 </a></p>
+    ]]>
+    </turbo:content>
+</item>
     </channel>
 </rss>
